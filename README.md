@@ -1,1 +1,1 @@
-# E-Commerce-Team-Proect-
+# E-Commerce-Team-Project
