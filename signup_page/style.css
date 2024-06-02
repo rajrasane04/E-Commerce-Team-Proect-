@@ -13,16 +13,12 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-            /* background-color: #dcdcdc; */
 }
 
 .socials-row {
     margin-top: -0.3rem;
-    /* display: flex; */
-    padding-left: 43px;
+    padding-left: 10%;
     gap: 1rem;
-    /* flex-wrap: wrap; */
-    /* padding-left: 70px; */
 }
 
 .socials-row img {
@@ -47,14 +43,9 @@ body {
     font-weight: 700;
 }
 
-/* .socials-row>a:hover {
-    background-color: var(--social-background-hover);
-} */
-
 .login-welcome-row {
     margin-bottom: 4.5rem;
     text-align: center;
-    /* font-family: serif; */
     font-weight: lighter;
 }
 
@@ -64,7 +55,6 @@ body {
     justify-content: start;
     position: relative;
     gap: 1rem;
-    background-color: var(--white);
     width: 100%;
     max-width: 32rem;
     padding: 3rem 2rem;
@@ -81,8 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    /* margin-bottom: px; */
-    margin-left: 178px;
+    margin-left: 34.5%;
     line-height: 42px;
     outline: none;
     font-size: 0.9rem;
@@ -90,20 +79,11 @@ body {
     letter-spacing: .025em;
     text-decoration: none;
     cursor: pointer;
-    /* font-weight: 800; */
-    /* min-height: 50px; */
-    width: 20%;
+    width: 30%;
     border-radius: 99px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
-
-/* .my-form__button:hover {
-    background-color: rgb(70, 32, 32);
-    color : aliceblue;
-} */
-
-/*? input wrapper */
 
 .input__wrapper {
     position: relative;
@@ -123,12 +103,6 @@ body {
     margin-left: 0.4rem;
     margin-bottom: 1.5px;
 }
-
-/* .input__label {
-    flex: 1;
-    color: ;
-    font-size: 1rem;
-} */
 
 .input__field {
     font-size: 1rem;
@@ -150,11 +124,7 @@ body {
     transform: translate(-50%, -50%);
     transform-origin: center;
     cursor: pointer;
-} */
-
-/* .input__icon:hover {
-    border-radius: 50%;
-} */
+} 
 
 .my-form__actions {
     display: flex;
@@ -168,43 +138,34 @@ body {
 .my-form__actions a {
     color: var(--secondary);
     font-weight: 600;
-    /* text-decoration: none; */
 }
 
 
 .my-form__row {
-    display: flex;
-    gap: 0.5rem;
     margin-top: 10px;
-    padding-left: 90px;
-    /* justify-content: space-between; */
 }
 
-/* General container styles */
 .container {
     position: relative;
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* assuming 'gap-2' means 2 units which usually equates to 0.5rem */
-    margin-top: 1.2rem;/* my-10 equates to margin-top and margin-bottom of 2.5rem */
+    gap: 0.5rem; 
+    margin-top: 1.2rem;
     margin-bottom: 1.5rem;
-    /* opacity: 1; opacity-100 means fully opaque */
     text-transform: uppercase;
     color: black;
     font-weight: bold;
 }
 
-/* Styles for horizontal lines */
 .line {
-    width: 50%; /* w-1/2 means 50% width */
-    border-color: black; /* border-black means the border color is black */
+    width: 50%; 
+    border-color: black; 
     opacity: 0.1;
 }
 
-/* Styles for paragraph */
 .container p {
-    color: gray; /* making the text color grayish */
-    opacity: 0.3; /* less opacity for grayish effect */
+    color: gray;
+    opacity: 0.3; 
 }
 
