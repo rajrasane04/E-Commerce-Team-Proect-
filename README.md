@@ -7,11 +7,11 @@ Welcome to the E-Commerce Team Project repository! This project is our first col
 ### Project Overview
 
 Our goal is to create a fully responsive e-commerce website with the following pages:
-- Home Page
+- Home Page (Header, Footer, Sidebar, Mainpage)
 - Shopping Cart Page
 - Checkout Page
-- Contact Page
-
+- Login and Signup Page (Login integrated into the header of the main page)
+  
 ### How to Contribute
 
 1. Clone the repository:
