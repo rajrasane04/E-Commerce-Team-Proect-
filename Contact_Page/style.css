@@ -53,7 +53,7 @@
     padding-right: 50px;
     padding-bottom: 0px;
     padding-left: 50px;
-    background-color: #1a1a19;
+    background-color: #1c1c1c;
   }
   
   .arch_contact_us_duplicate .responsive-container-block.container {
@@ -66,7 +66,7 @@
     line-height: 65px;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
     margin-left: 0px;
     color: azure;
   }
@@ -175,7 +175,7 @@
     border-image-repeat: initial;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     margin-left: 0px;
     background-color: #000000;
     border-radius: 50px;
@@ -238,16 +238,16 @@
   
     .arch_contact_us_duplicate .responsive-container-block.container {
       justify-content: space-evenly;
-      margin-top: 80px;
+      margin-top: 30px;
       margin-right: 0px;
-      margin-bottom: 80px;
+      margin-bottom: 30px;
       margin-left: 0px;
     }
   
     .arch_contact_us_duplicate .responsive-cell-block.wk-mobile-12.wk-desk-5.wk-tab-10.wk-ipadp-5 {
       margin-top: 0px;
       margin-right: 0px;
-      margin-bottom: 80px;
+      margin-bottom: 40px;
       margin-left: 0px;
     }
   }
