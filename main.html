@@ -25,7 +25,7 @@
     <header id="header" class="site-header header-scrolled position-fixed text-black bg-light">
       <nav id="header-nav" class="navbar navbar-expand-lg px-3 mb-3">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="main.html">
             <img src="assets/shop.svg" class="logo" alt="logo">
           </a>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
@@ -35,38 +35,24 @@
                   <a class="nav-link me-4 active" href="#billboard">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-4" href="#company-services">Services</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link me-4" href="#mobile-products">Products</a>
                 </li>
+                <li class="nav-item"> 
+                  <a class="nav-link me-4" href="contact page/index.html">Contact</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link me-4 dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="wishlist page/index.html" class="dropdown-item">Wishlist</a>
-                    </li>
-                    <li>
-                      <a href="cart.html" class="dropdown-item">Cart</a>
-                    </li>
-                    <li>
-                      <a href="checkout.html" class="dropdown-item">Checkout</a>
-                    </li>
-                    <li>
-                      <a href="contact page/index.html" class="dropdown-item">Contact</a>
-                    </li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="wishlist page/index.html">Wishlist</a>
                 </li>
+                </li>
+                
                 <li class="nav-item">
                   <div class="user-items ps-5">
                     <ul class="d-flex justify-content-end list-unstyled">
                       <li class="search-item pe-3">
-                        <a href="#" class="search-button">
-                          <svg class="search">
-                            <use xlink:href="#search"></use>
-                          </svg>
-                        </a>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
                       </li>
                       <li class="pe-3">
                         <a href="login_page/index.html">
@@ -92,9 +78,10 @@
       </nav>
     </header>
     
+    <!-- Main Content -->
       <div class="container">
         <div class="main-image"></div>
-        <div class="heading">PUMA SPOTLIGHT</div>
+        <div class="heading">SPOTLIGHT</div>
         <div class="all-products">
           <div class="all-product">
               <div class="product">
@@ -150,7 +137,6 @@
           </div>
         </div>
       </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
