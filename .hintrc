@@ -23,7 +23,9 @@
       {
         "image-alt": "off"
       }
-    ]
+    ],
+    "no-protocol-relative-urls": "off",
+    "axe/keyboard": "off"
   },
   "browserslist": [
     "defaults",
