@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name":" PUMA-180 Unisex Sneakers",
+        "price": 200,
+        "image": "1.png"
+    },
+    {
+        "id": 2,
+        "name":" Rider Future Vintage Unisex Sneakers",
+        "price": 250,
+        "image": "2.png"
+    },
+    {
+        "id": 3,
+        "name":" Porsche Legacy Caven 2.0 Unisex Motorsport Sneakers",
+        "price": 290,
+        "image": "3.png"
+    },
+    {
+        "id": 4,
+        "name":" Cricket square Men's Shoes",
+        "price": 200,
+        "image": "4.png"
+    },
+    {
+        "id": 5,
+        "name":" Exotek NITRO Energy Unisex Sneakers",
+        "price": 300,
+        "image": "5.png"
+    },
+    {
+        "id": 6,
+        "name":" RS-X Forward History Unisex Sneakers",
+        "price": 200,
+        "image": "6.png"
+    }
+]
