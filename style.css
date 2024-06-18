@@ -610,4 +610,97 @@ body {
     }
   }
   
+ /* Footer CSS */
   
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#flex{
+    background-color: rgba(138,115,80,var(--tw-bg-opacity));
+}
+#part1{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+#footer{
+    background-color: #454545;
+    padding: 70px 40px;
+}
+.col{
+    width: 25%;
+    padding: 0px 10px;
+}
+.col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 25px;
+    font-weight: 700;
+    position: relative;
+}
+
+
+.col h5{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+ 
+    
+}
+.col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    margin-top: 5px;
+
+}
+.col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.col .link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255, 255, 0.2);
+    margin:15px 20px 20px 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+}
+.col .link a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+#part2 h5{display: flex;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.5;
+    font-weight: 200;
+    padding-left: 5px ;
+    margin-bottom: 10px;
+    
+
+}
