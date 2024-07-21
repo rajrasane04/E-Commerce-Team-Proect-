@@ -32,12 +32,9 @@ document.getElementById('root').innerHTML = categories.map(item => {
     var { image, title, price } = item;
     return (
         `<div class='box'>
-            <div class='img-box'>
-                <img class='images' src=${image}></img>
-            </div>
             <div class='bottom'>
                 <p>${title}</p>
-                <h2>₹ ${price}.00</h2>
+                <h2>$ ${price}.00</h2>
                 <button onclick='addtocart(${i++})'>Add To Cart</button>
             </div>
         </div>`
@@ -61,20 +58,17 @@ function displayCart() {
     document.getElementById("count").innerHTML = cart.length;
     if (cart.length == 0) {
         document.getElementById('cartitem').innerHTML = "Your Cart is Empty";  //for display cart is empty
-        document.getElementById("total").innerHTML = "₹0.00";   //to display money count
+        document.getElementById("total").innerHTML = "$0.00";   //to display money count
     } else {
         document.getElementById('cartitem').innerHTML = cart.map((items, index) => {
             var { image, title, price } = items;
             total += price;     //if addded more than 1 item add its price to total
-            document.getElementById("total").innerHTML = "₹ " + total + ".00";      //to display count
+            document.getElementById("total").innerHTML = "$" + total + ".00";      //to display count
             return (
                 `<div class='cart-item'>
-                    <div class='row-img'>
-                        <img class='rowimg' src=${image}>
-                    </div>
                     <div>
                         <p style='font-size:12px;'>${title}</p>
-                        <h2 style='font-size:15px;'>₹ ${price}.00</h2>
+                        <h2 style='font-size:15px;'>$ ${price}.00</h2>
                         <i class='fa-solid fa-trash' onclick='delElement(${index})'></i>
                     </div>
                 </div>`
