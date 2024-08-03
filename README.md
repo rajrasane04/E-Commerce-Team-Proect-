@@ -21,6 +21,10 @@ Our goal is to create a fully responsive e-commerce website with the following p
 &nbsp;&nbsp;&nbsp;  [sakshi-772](https://github.com/sakshi-772)
 &nbsp;&nbsp;&nbsp;  [siddhiamale](https://github.com/siddhiamale)
 
+### Check it out 
+
+[Demo](https://rajrasane04.github.io/E-Commerce-Team-Project/main.html)
+
   
 ### How to Contribute
 
